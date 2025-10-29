@@ -5,5 +5,7 @@ count=0
 
 increment = st.button("Increment")
 if increment:
-  count += 1,1000
+  count += 1
 st.write("Count = ", count)
+
+st.write(st.session_state)
